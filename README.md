@@ -10,3 +10,9 @@ A lightweight Minecraft modpack
 - Thermal Expansion
 - Journey Map
 - Applied Energistics
+- Cooking for Blockheads
+- Pam's Harvestcraft
+- Farming for Blockheads
+- MiniCoal
+- Villager Market
+- Waila

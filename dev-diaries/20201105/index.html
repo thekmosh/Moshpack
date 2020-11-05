@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>11/5/20 - MoshPack</title>
+        <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+        <script src="../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../js/bootstrap-3.0.3.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+
+                <!-- Collapsed navigation -->
+                <div class="navbar-header">
+                    <!-- Expander button -->
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="../..">MoshPack</a>
+                </div>
+
+                <!-- Expanded navigation -->
+                <div class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li >
+                                <a href="../..">Home</a>
+                            </li>
+                            <li class="dropdown active">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dev Diaries <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li class="active">
+    <a href="./">11/5/20</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li >
+                                <a rel="next" href="../..">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="disabled">
+                                <a rel="prev" >
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+        <li class="main active"><a href="#dev-diary-1">Dev Diary 1</a></li>
+            <li><a href="#why-make-a-minecraft-modpack">Why Make A Minecraft Modpack?</a></li>
+            <li><a href="#what-is-the-moshpack">What is the MoshPack?</a></li>
+            <li><a href="#initial-mod-list">Initial Mod List</a></li>
+    </ul>
+</div></div>
+                <div class="col-md-9" role="main">
+
+<h1 id="dev-diary-1">Dev Diary 1</h1>
+<h2 id="why-make-a-minecraft-modpack">Why Make A Minecraft Modpack?</h2>
+<p>My introduction to modded Minecraft was probably the YouTube let's play series called <a href="https://www.youtube.com/playlist?list=PLE470316C0C6AD1A4">My Buildcraft</a> by <a href="https://www.youtube.com/user/chemdork123">Chemdork123</a>. The automation aspect of Buildcraft and the interesting solutions using it that Chemdork was able to come up with really spoke to the engineer in me. I downloaded and tried the mod and really enjoyed it. Since then I've tried many different modpacks and mods. I have also played games inspired by modded minecraft like <a href="https://factorio.com/">Factorio</a>, <a href="https://www.bigpharmagame.com/">Big Pharma</a>, <a href="https://www.automachef.com/">Automachef</a>, and <a href="https://www.satisfactorygame.com/">Satisfactory</a>.</p>
+<p>After playing these mods and games, I realized some issues with the modded Minecraft I had been playing:</p>
+<ul>
+<li>No individual mod really <em>did it</em> for me</li>
+<li>Some mods are too overpowered for me e.g. EnderIO</li>
+<li>Every modpack has way too many mods for me</li>
+<li>Expert style modpacks go too far in making adjusted recipes more expensive</li>
+</ul>
+<p>So, given my experience in software development and an interest in the subject, I decided to make my own modpack that fixed these issues.</p>
+<h2 id="what-is-the-moshpack">What is the MoshPack?</h2>
+<p>The MoshPack will be made with the following in mind:</p>
+<ul>
+<li><strong>Every included mod will directly be focused on automation.</strong>
+This will not apply to helper mods like JEI.</li>
+<li><strong>There will be no more than 10 mods in the pack.</strong>
+This will ensure that the pack is simple enough to understand without a complex system of in-game quests. This number will likely not include helper mods like JEI.</li>
+<li><strong>No mods will be added that trivialize any aspect of the early or mid game</strong></li>
+<li><strong>Recipes will be adjusted, but should nothing shoulf feel like a slog to get</strong>
+Players shouldn't have to get a stockpile of diamonds before doing any automation, nor should they have to access the End before having a decent setup going.</li>
+</ul>
+<h2 id="initial-mod-list">Initial Mod List</h2>
+<p>With the guiding principles from the previous section in mind, here is the initial mod list I had in mind:</p>
+<p>Main mods:</p>
+<ul>
+<li><a href="#immersive-engineering">Immersive Engineering</a></li>
+<li><a href="#forestry">Forestry</a></li>
+<li><a href="#tinkers-tools">Tinker's Tools</a></li>
+<li>[Botania]</li>
+<li>[Thermal Expansion]</li>
+<li>[Applied Energistics]</li>
+<li>[Pam's Harvestcraft]</li>
+<li>[Mekanism]</li>
+</ul>
+<p>Helper mods:</p>
+<ul>
+<li>[Villager Market]</li>
+<li>[Biomes O Plenty]</li>
+<li>[Journey Map]</li>
+<li>[Cooking for Blockheads]</li>
+<li>[Farming for Blockheads]</li>
+<li>[MiniCoal]</li>
+<li>[Waila]</li>
+<li>[Spice of Life]</li>
+</ul>
+<p>You may notice that Buildcraft is not in the list. I love Buildcraft for introducing me to the world of modded Minecraft, but I feel like there are other mods that, when combined, do everything Buildcraft does, but much better. Any other notable additions are because I think the mod is overpowered, out of scope, or maybe I've just never played it.</p>
+<p>The following sections will go into detail about why I want to add each mod.</p>
+<h3 id="immersive-engineering">Immersive Engineering</h3>
+<p>IE has quickly become my favorite mod. I find that the massive size of the machines, the wires that look and act like actual wires, and the general aesthetic are exactly what I'm looking for in an automation based modded Minecraft. I find the mod to be generally well balanced and paced, although at the time of writing I'm not sure how I feel about the locking of the critical steel production behind the Nether.</p>
+<p>I plan on locking production of machines from the other tech mods behind IE's steel production, and removing machines from other mods that serve the exact same purpose as IE machines. The major exception here is the farming cloche thing. I find that to be super OP and it will almost certainly be removed in favor of Forestry.</p>
+<p>You can consider IE to effectively be the star of the show for the MoshPack.</p>
+<h3 id="forestry">Forestry</h3>
+<p>You can thank Chemdork for this one. In his <a href="https://www.youtube.com/playlist?list=PLb8lj2ziBwwwsHVhOqz09k9s_Df_boVll">second season of My Buildcraft</a> he added forestry to his mod list. I really like the progression of farming automation it has. The multiblock farm is a fantastic look, and I think its massive size fits well with the machines from IE. The complexity of crafting using the carpenter and thermionic fabricator is a nice way of forcing a form of progression. So, ike many expert pack makers, I plan on using them to lock some of the more powerful machines in other mods behind that progression.</p>
+<p>On the flipside of all that are the trees, bees, and butterflies. The tree breeding is something I plan on leaving in the pack as a sort of side activity you can pursue if you really want. As for bees and butterflies, I just don't understand them at all, and I just don't like them. I will be removing all the machines and general recipies involving bees and butterflies, and if possible I will be disabling them from spawning in worlds.</p>
+<h3 id="tinkers-tools">Tinkers Tools</h3>
+<p>This mod is already being considered for removal.</p></div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "../..",
+                shortcuts = {"search": 83, "next": 78, "help": 191, "previous": 80};
+        </script>
+        <script src="../../js/base.js" defer></script>
+        <script src="../../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form role="form">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="Keyboard Shortcuts Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Keyboard Shortcuts</h4>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

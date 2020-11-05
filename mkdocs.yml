@@ -1,0 +1,8 @@
+site_name: MoshPack
+dev_addr: 0.0.0.0:8080
+# theme:
+#     name: material
+nav:
+    - Home: index.md
+    - Dev Diaries:
+        - 11/5/20: dev-diaries/20201105.md

@@ -1,5 +1,5 @@
 site_name: MoshPack
-dev_addr: 0.0.0.0:8080
+dev_addr: localhost:8110
 # theme:
 #     name: material
 nav:
